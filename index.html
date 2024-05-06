@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- the character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- the description and keywords for search engines -->
+    <meta name="description" content="A website explaining Christianity with pages on the Gospel, Jesus, Salvation, Tips for New Believers, Church Finder, and Resources.">
+    <meta name="keywords" content="Christianity, Gospel, Jesus, Salvation, New Believers, Church Finder, Resources">
+
+    <!-- the title of the webpage -->
+    <title>Christianity</title>
+
+    <!-- the CSS stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+
+    <!-- Add a custom CSS class for styling the form -->
+    <style>
+        .form-container {
+            /* Add your custom styles here */
+        }
+
+        /* Add your custom styles for form elements */
+        input[type="text"],
+        input[type="date"],
+        input[type="time"],
+        input[type="email"],
+        textarea,
+        select {
+            /* Add your custom styles here */
+        }
+
+        /* Add your custom styles for the focus pseudo class */
+        input:focus,
+        select:focus {
+            /* Add your custom styles here */
+        }
+    </style>
+</head>
+<body>
+    <!-- the header section -->
+    <header>
+        <!-- the navigation bar -->
+        <nav>
+            <!-- the unordered list for the navigation links -->
+            <ul>
+                <!-- the list items for the navigation links -->
+                <li><a href="gospel.html">Gospel</a></li>
+                <li><a href="jesus.html">Jesus</a></li>
+                <li><a href="salvation.html">Salvation</a></li>
+                <li><a href="new-believers.html">Tips for New Believers</a></li>
+                <li><a href="church-finder.html">Church Finder</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- the main content section -->
+    <main class="container">
+        <!-- the main image -->
+        <img src="https://t4.ftcdn.net/jpg/06/51/66/45/360_F_651664596_4FGHGBpyROKE8PxZQNuLktTYyatxAUbY.jpg" alt="Christianity Image" class="main-image">
+
+        <!-- the heading for the main content -->
+        <h1>Welcome to Christianity</h1>
+
+        <!-- the paragraph for the main content -->
+        <p>This website is designed to help you learn about Christianity, including the Gospel, Jesus, Salvation, and more. 
+		<br><br>If you wish to give your life to Jesus or learn more about Him fill out the information below.</p>
+
+        <!-- the form container -->
+        <div class="form-container">
+            <!-- the form -->
+            <form>
+                <!-- the fieldset for personal information -->
+                <fieldset>
+                    <!-- the legend for the fieldset -->
+                    <legend>Personal Information:</legend>
+
+                    <!-- the name input -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <!-- the email input -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <!-- the date input -->
+                    <label for="birthdate">Birthdate:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+
+                    <!-- the time input -->
+                   <label for="salvation-time">Salvation Time:</label>
+                    <input type="time" id="salvation-time" name="salvation-time" required>
+                </fieldset>
+
+                <!-- the fieldset for preferences -->
+                <fieldset>
+                    <!-- the legend for the fieldset -->
+                    <legend>How Can We Help?</legend>
+
+                    <!-- the radio buttons -->
+                    <label for="choice-1">I need Jesus</label>
+                    <input type="radio" id="choice-1" name="choice" value="choice1" required>
+
+                    <label for="choice-2">I want more info about Jesus</label>
+                    <input type="radio" id="choice-2" name="choice" value="choice2" required>
+					<br><br>
+					
+                    <!-- the spinner -->
+                    <label for="number-input">How many people would you like to pray for?</label>
+                    <input type="number" id="number-input" name="number-input" min="1" max="10" required>
+
+					<br><br>
+                    <!-- the checkboxes -->
+                    <label for="option-1">Do you need prayer?</label>
+                    <input type="checkbox" id="option-1" name="option-1" value="option1" required>
+
+                    <label for="option-2">Need help finding a church?</label>
+                    <input type="checkbox" id="option-2" name="option-2" value="option2" required>
+					
+					<label for="option-3">Do you own a bible?</label>
+                    <input type="checkbox" id="option-3" name="option-3" value="option3" required>
+                </fieldset>
+
+                <!-- the fieldset for the selection list -->
+                <fieldset>
+                    <!-- the legend for the fieldset -->
+                    <legend>Have you accepted Jesus as your Lord and Savior?</legend>
+
+                    <!-- the selection list -->
+                    <label for="selection-list">Select an option:</label>
+                    <select id="selection-list" name="selection-list" required>
+                        <option value="">-- Select an option --</option>
+                        <option value="option1">I would like to give my life to Jesus</option>
+                        <option value="option2">I'm not ready to give my life to Jesus</option>
+                        <option value="option3">I've already given my life to Jesus</option>
+                    </select>
+                </fieldset>
+
+                <!-- the text area -->
+                <fieldset>
+                    <!-- the legend for the fieldset -->
+                    <legend>Testimony:</legend>
+
+                    <!-- the text area -->
+                    <label for="comments">Tell us about how you met Jesus?</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50" required></textarea>
+                </fieldset>
+
+                <!-- the submit and reset buttons -->
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- the footer section -->
+    <footer>
+        <!-- the copyright information -->
+        <p>&copy; 2023 Christianity. All rights reserved.</p>
+    </footer>
+
+    <!-- the JavaScript code (not functional since it's not included in a separate file) -->
+    <script>
+        // Tutorial 9 Requirements
+
+        // Current day and time
+        const now = new Date();
+        console.log(`Current day and time: ${now}`);
+
+        // Alert using JavaScript
+        alert("Welcome to where you can learn about The Savior of The World!");
+
+        // Math method
+        console.log(Math.random());
+
+        // Delay one command or run a command at a specified interval
+        setTimeout(() => {
+            console.log("This message is displayed after 3 seconds.");
+        }, 3000);
+
+        // Convert between a number and a text
+        console.log(Number("123"));
+        console.log(String(123));
+
+        // Countdown function
+        const countdown = (time) => {
+            const now = new Date();
+            const diff = time - now;
+            if (diff <= 0) {
+                console.log("Not Everyday is Guaranteed Your Eternity Matters!");
+            } else {
+console.log(`Countdown: ${Math.floor(diff / 1000)} seconds`);
+                setTimeout(() => countdown(time), 1000);
+            }
+        };
+        countdown(new Date(now.getFullYear() + 1, now.getMonth(), now.getDate()));
+    </script>
+</body>
+</html>

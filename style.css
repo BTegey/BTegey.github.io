@@ -1,0 +1,59 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Set the font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+	background-color: #D9CCE5; /* Change background color */
+}
+
+/* Styles for the header */
+header {
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Position the header at the top */
+    background-color: #333; /* Set the background color */
+    padding: 10px; /* Add padding */
+}
+
+/* Styles for the navigation bar */
+nav ul {
+    display: flex; /* Display the list items in a row */
+    justify-content: space-around; /* Distribute the space evenly between the items */
+    list-style-type: none; /* Remove the default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styles for the text links in the navigation bar */
+nav a {
+    color: white; /* Set the text color */
+    text-decoration: none; /* Remove the default underline */
+}
+
+/* Change the color of the navigation bar */
+nav {
+    background-color: #663399; /* Set the background color */
+}
+
+/* Change the color of the text links in the navigation bar */
+nav ul li a {
+    color: #debd68; /* Set the text color */
+}
+
+/* Change the color of the text links when hovering over them */
+nav ul li a:hover {
+    color: #333; /* Set the hover color */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333; /* Set the background color */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center the text */
+    color: white; /* Set the text color */
+}
+
+/* Styles for the main image */
+.main-image {
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Set the height to auto */
+}
